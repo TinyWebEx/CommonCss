@@ -143,7 +143,7 @@ a:active {
   cursor: text;
 
   /* multiline */
-  hypens: auto;
+  hyphens: auto;
   overflow-wrap: break-word;
 
   /* center-vertically */
