@@ -140,6 +140,7 @@ a:active {
 
   /* make errors selectable, so users can copy them */
   -moz-user-select: text;
+  user-select: text;
   cursor: text;
 
   /* multiline */
