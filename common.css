@@ -52,6 +52,11 @@ a:active {
   position: relative;
 }
 
+/* add padding when element appears before message */
+* + .message-container {
+  padding-top: 8px;
+}
+
 /* buttons https://design.firefox.com/photon/components/buttons.html */
 .micro-button {
   min-height: 24px;
