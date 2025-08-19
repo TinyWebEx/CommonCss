@@ -8,6 +8,8 @@
  */
 
 :root {
+  --color-white: #ffffff;
+
   --blue-40: #45a1ff;
   --blue-50: #0a84ff;
   --blue-50-a30: rgba(10, 132, 255, 0.3);
@@ -46,6 +48,19 @@
   --grey-90-a30: rgba(12, 12, 13, 0.3);
 
   --white-100: #ffffff;
+}
+
+/* new colors: https://github.com/mozilla-firefox/firefox/blob/e8f6d0bd4a714048584bbb0d523e5f96559599d8/toolkit/themes/shared/design-system/tokens-shared.css#L110C4-L142C31 */
+:root {
+ /** Color **/
+  --color-gray-05: #fbfbfe;
+  --color-gray-30: #bac2ca;
+  --color-gray-50: #bfbfc9;
+  --color-gray-60: #8f8f9d;
+  --color-gray-70: #5b5b66;
+  --color-gray-80: #23222b;
+  --color-gray-90: #1c1b22;
+  --color-gray-100: #15141a;
 }
 
 /* custom variables, independent of Mozilla's Photon colors
