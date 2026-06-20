@@ -67,7 +67,7 @@ a:active {
 
   /* "unhides" all elements that contain at least one visible element */
   .message-container:has(> :not(.invisible)) {
-    display: block;
+    display: inherit;
   }
 }
 
